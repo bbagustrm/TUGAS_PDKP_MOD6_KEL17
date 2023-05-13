@@ -25,7 +25,7 @@ public abstract class Calculator {
         return this.number.size();
     }
 
-    abstract boolean tampil(String operation);
+    abstract void tampil(String operation);
 
     abstract void add();
     abstract void substract();

@@ -28,7 +28,7 @@ public class ScientificCalculator extends Calculator{
     }
 
     @Override
-    boolean tampil(String operation){
+    void tampil(String operation){
         String tampil = "";
         for (int i = 0; i < sizeNumber(); i++){
             if (i + 1 == sizeNumber()){
@@ -39,7 +39,6 @@ public class ScientificCalculator extends Calculator{
 
         }
         setTampil(tampil);
-        return false;
     }
 
     @Override
